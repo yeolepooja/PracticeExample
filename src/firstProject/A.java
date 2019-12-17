@@ -6,6 +6,7 @@ public class A extends J implements I {
 		System.out.println("Implementation of method m1 in class A ");
 	}
 
+	
 	public void m2() {
 		System.out.println("Implementation of method m2");
 	}
@@ -22,8 +23,6 @@ public class A extends J implements I {
 	
 		J obj1 = new A();
 		obj1.m1();
-		
-		
 	}
 
 }
